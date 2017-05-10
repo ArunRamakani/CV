@@ -1,7 +1,6 @@
 var http = require('http'),
     fs = require('fs');
 
-
 fs.readFile('./ArunCv.html', function (err, html) {
     if (err) {
         throw err; 
